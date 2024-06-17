@@ -1,6 +1,7 @@
 # Mouse Follower in React + TypeScript + Vite
 
 This project is a minimal setup to get React working in Vite with HMR and some ESLint rules. It includes a feature where a UI element follows the mouse cursor around the screen.
+You can check the result here: [MouseFollower](https://mousefollower.pages.dev/)
 
 ## Features
 
