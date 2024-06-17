@@ -6,7 +6,7 @@ export function FollowMouse({ enabled }: { enabled: boolean }) {
   useEffect(() => {
     console.log('efecto', { enabled })
 
-    const handleMove = (event) => {
+    const handleMove = (event: { clientX: number; clientY: number }) => {
       const { clientX, clientY } = event
       console.log('handleMove', { clientX, clientY })
       setPosition({ x: clientX, y: clientY })
